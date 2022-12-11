@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    tools:context=".MainActivity">
+    >
+
+    <TextView
+        android:id="@+id/text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Online Auction System"
+        android:layout_marginTop="200dp"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:layout_marginLeft="40dp"
+        ></TextView>
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_above="@+id/et_password"
+        android:hint="Email"
+       android:background="@drawable/textfields"
+        android:textColor="@color/black"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:padding="15dp"
+        android:inputType="textEmailAddress"
+
+
+
+        android:textSize="15sp" />
+
+    <EditText
+        android:id="@+id/et_password"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_marginLeft="20dp"
+       android:background="@drawable/textfields"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp"
+
+        android:hint="Password"
+
+        android:inputType="textPassword"
+
+        android:padding="15dp"
+        android:textColor="@color/black"
+        android:textSize="15sp" />
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/login"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/et_password"
+        android:hint="Login"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        ></androidx.appcompat.widget.AppCompatButton>
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/register1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/login"
+        android:hint="Sign Up"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="15dp"
+        android:background="@android:color/holo_blue_dark"
+        android:textColor="@android:color/white"
+        ></androidx.appcompat.widget.AppCompatButton>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Develop by Aman Usman"
+        android:layout_marginTop="600dp"
+        android:textSize="20sp"
+        android:layout_marginLeft="20sp"
+        android:layout_marginBottom="4dp"
+        android:textColor="@color/black"
+        android:textStyle="bold"
+        ></TextView>
+
+
+</RelativeLayout>

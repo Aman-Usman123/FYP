@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "345030257536",
+    "project_id": "bid-app-3c283",
+    "storage_bucket": "bid-app-3c283.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:345030257536:android:ae8c7490c142010039af65",
+        "android_client_info": {
+          "package_name": "com.example.bidapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "345030257536-4lumtlllgdbd0p7pcliqrjp4skanpeso.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAJpZ95vKkjI9PRryhpKShodJDXT4yQQNI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "345030257536-4lumtlllgdbd0p7pcliqrjp4skanpeso.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
