@@ -19,17 +19,17 @@ class buyingoption : Fragment() {
     }
 
 
-    @SuppressLint("MissingInflatedId")
+    @SuppressLint("MissingInflatedId", "SuspiciousIndentation")
     override fun onCreateView(
         inflater: LayoutInflater, container: ViewGroup?,
         savedInstanceState: Bundle?
     ): View? {
         // Inflate the layout for this fragment
        val v= inflater.inflate(R.layout.fragment_buyingoption, container, false)
-      val  switch2=v.findViewById<TextView>(R.id.switch2)
+      val switch2=v.findViewById<TextView>(R.id.switch2)
         switch2.setOnClickListener{
 
-            Log.d("asd", "onCreateView: ")
+
             val sellingoptionoption=Sellingoption()
             val transaction: FragmentTransaction =parentFragmentManager!!.beginTransaction()
             transaction.replace(R.id.mainlayout,sellingoptionoption).commit()
